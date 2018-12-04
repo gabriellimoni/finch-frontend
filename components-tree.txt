@@ -1,9 +1,9 @@
 - page
-	- above-navbar
-		- above-navbar-right
-		- above-navbar-left
-		- above-navbar-bottom
-	- navbar
+	- above-navbar - ok
+		- above-navbar-right - ok
+		- above-navbar-left - ok
+		- above-navbar-bottom - ok
+	- navbar -
 	- header
 		- header-title
 		- header-description
