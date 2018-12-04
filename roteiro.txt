@@ -1,0 +1,8 @@
+- criar repositório - ok
+- criar projeto vue - ok
+- analisar componentes necessários - ok
+- montar esquema de árvore de componentes - ok
+
+Desenvolver
+- aprender sobre sass
+- aprender a usar sass com bulma
