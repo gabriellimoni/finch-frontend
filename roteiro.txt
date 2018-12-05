@@ -4,5 +4,5 @@
 - montar esquema de árvore de componentes - ok
 
 Desenvolver
-- aprender sobre sass
-- aprender a usar sass com bulma
+- aprender sobre sass - ok
+- aprender a usar sass com bulma - ok

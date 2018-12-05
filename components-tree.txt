@@ -3,15 +3,14 @@
 		- above-navbar-right - ok
 		- above-navbar-left - ok
 		- above-navbar-bottom - ok
-	- navbar -
-	- header
-		- header-title
-		- header-description
-		- header-items
-			- header-item
-	- achievements-list
-		- achievement-item
-	- clients
+	- navbar - ok
+	- header -
+		- header-title - ok
+		- header-description - ok
+		- header-items - ok
+	- achievements-list - ok
+		- achievement-item - ok
+	- clients -
 		- clients-header
 		- clients-list
 			- client-item
