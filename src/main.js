@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+var VueScrollTo = require('vue-scrollto');
+Vue.use(VueScrollTo, {
+     offset: -150,
+ })
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

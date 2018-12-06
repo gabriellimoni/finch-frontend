@@ -6,7 +6,7 @@
         <!-- AchievementItem -->
         <achievement-item
             v-for="(a, i) of achievements"
-            key="i"
+            :key="i"
             :image_source="a.image_source"
             :number="a.number"
             :text="a.text"/>

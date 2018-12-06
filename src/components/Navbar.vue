@@ -1,7 +1,11 @@
 <template lang="html">
-  <div class="navbar-wrapper">
+  <div class="navbar-wrapper" ref="navbar">
     <div class="navbar-container">
-      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <nav
+      class="navbar"
+      :class="{'is-fixed-top': is_sticky, 'navbar-wrapper': is_sticky}"
+      role="navigation"
+      aria-label="main navigation">
         <div class="navbar-brand" >
           <a class="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
@@ -20,11 +24,11 @@
               Home
             </a>
 
-            <a class="navbar-item has-text-grey">
+            <a class="navbar-item has-text-grey" v-scroll-to="'#header'">
               About
             </a>
 
-            <a class="navbar-item has-text-grey">
+            <a class="navbar-item has-text-grey" v-scroll-to="'#achievements-list'">
               Services
             </a>
 
@@ -61,6 +65,25 @@
 
 <script>
 export default {
+  data(){
+    return {
+      sticky_delta: null,
+      is_sticky: false,
+    }
+  },
+  mounted(){
+    this.sticky_delta = this.$refs.navbar.offsetTop;
+    window.onscroll = () => this.checkNavBar()
+  },
+  methods: {
+    checkNavBar(){
+      if (window.pageYOffset > this.sticky_delta) {
+        this.is_sticky = true
+      } else {
+        this.is_sticky = false
+      }
+    }
+  }
 }
 </script>
 
