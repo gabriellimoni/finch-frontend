@@ -10,14 +10,13 @@
 		- header-items - ok
 	- achievements-list - ok
 		- achievement-item - ok
-	- clients -
-		- clients-header
-		- clients-list
-			- client-item
-	- services
-		- services-header
-		- services-list
-			- service-item
+	- clients - ok
+		- clients-header - ok
+		- clients-list - ok
+	- services - ok
+		- services-header - ok
+		- services-list - ok
+			- service-item - 
 	- testimonial
 		- testimonial-text
 		- testimonial-name
