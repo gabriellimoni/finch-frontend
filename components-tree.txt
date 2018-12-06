@@ -16,10 +16,8 @@
 	- services - ok
 		- services-header - ok
 		- services-list - ok
-			- service-item - 
-	- testimonial
-		- testimonial-text
-		- testimonial-name
+			- service-item - ok
+	- testimonial - ok
 	- team
 		- team-header
 		- team-carrousel
